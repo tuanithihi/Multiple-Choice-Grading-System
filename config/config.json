@@ -1,0 +1,218 @@
+{
+    "_ghi_chu": "Bố cục thực tế xác định từ ảnh phiếu trắc nghiệm chuẩn THPT 50 câu.",
+    "chua_xac_nhan": false,
+
+    "anh": {
+        "_ghi_chu": "Kích thước ảnh chuẩn sau khi nắn thẳng (chuẩn mẫu gốc 1055 x 1491 px)",
+        "chieu_rong": 1055,
+        "chieu_cao": 1491
+    },
+
+    "markers_goc": {
+        "_ghi_chu": "Tọa độ 4 ô vuông đen định vị góc phiếu (pixel chuẩn)",
+        "tren_trai":  {"x": 60,  "y": 64,   "w": 25, "h": 26},
+        "tren_phai":  {"x": 972, "y": 64,   "w": 25, "h": 26},
+        "duoi_trai":  {"x": 60,  "y": 1405, "w": 25, "h": 25},
+        "duoi_phai":  {"x": 973, "y": 1405, "w": 24, "h": 25}
+    },
+
+    "roi_sbd": {
+        "_ghi_chu": "Vùng Số báo danh gồm 4 cột (chữ số từ 0 đến 9).",
+        "x": 0.7081,
+        "y": 0.1100,
+        "w": 0.1185,
+        "h": 0.1911,
+        "pixel_x": 747,
+        "pixel_y": 164,
+        "pixel_w": 125,
+        "pixel_h": 285,
+        "so_cot": 4,
+        "so_hang": 10,
+        "cot_x_offsets": [18.5, 48.5, 79.5, 109.5],
+        "hang_y_offsets": [19.0, 46.2, 73.5, 100.5, 128.0, 155.0, 182.5, 210.0, 237.5, 264.5],
+        "ban_kinh_o_pixel": 7,
+        "chua_xac_nhan": false
+    },
+
+    "roi_ma_de": {
+        "_ghi_chu": "Vùng Mã đề thi gồm 3 cột (chữ số từ 0 đến 9).",
+        "x": 0.8483,
+        "y": 0.1100,
+        "w": 0.0853,
+        "h": 0.1911,
+        "pixel_x": 895,
+        "pixel_y": 164,
+        "pixel_w": 90,
+        "pixel_h": 285,
+        "so_cot": 3,
+        "so_hang": 10,
+        "cot_x_offsets": [20.5, 48.0, 75.0],
+        "hang_y_offsets": [19.0, 46.2, 73.5, 100.5, 128.0, 155.0, 182.5, 210.0, 237.5, 264.5],
+        "ban_kinh_o_pixel": 7,
+        "chua_xac_nhan": false
+    },
+
+    "roi_cau_hoi": {
+        "_ghi_chu": "50 câu hỏi chia thành 10 khối (mỗi khối 5 câu, 4 đáp án A/B/C/D). Cột 1 gồm Khối 1-5 (Câu 1-25), Cột 2 gồm Khối 6-10 (Câu 26-50).",
+        "so_khoi": 10,
+        "cau_moi_khoi": 5,
+        "so_dap_an": 4,
+        "dap_an_nhan": ["A", "B", "C", "D"],
+        "ban_kinh_o_pixel": 8,
+        "hang_y_offsets": [16.6, 47.4, 78.4, 109.3, 140.2],
+        "cot_1_5_x_offsets": [90.0, 155.5, 219.7, 283.6],
+        "cot_6_10_x_offsets": [88.5, 151.5, 220.0, 288.0],
+        "khoi": [
+            {
+                "ten": "Câu 1-5",
+                "tu_cau": 1,
+                "den_cau": 5,
+                "x": 0.1573,
+                "y": 0.3944,
+                "w": 0.2938,
+                "h": 0.1073,
+                "pixel_x": 166,
+                "pixel_y": 588,
+                "pixel_w": 310,
+                "pixel_h": 160
+            },
+            {
+                "ten": "Câu 6-10",
+                "tu_cau": 6,
+                "den_cau": 10,
+                "x": 0.1573,
+                "y": 0.5023,
+                "w": 0.2938,
+                "h": 0.1066,
+                "pixel_x": 166,
+                "pixel_y": 749,
+                "pixel_w": 310,
+                "pixel_h": 159
+            },
+            {
+                "ten": "Câu 11-15",
+                "tu_cau": 11,
+                "den_cau": 15,
+                "x": 0.1573,
+                "y": 0.6090,
+                "w": 0.2938,
+                "h": 0.1066,
+                "pixel_x": 166,
+                "pixel_y": 908,
+                "pixel_w": 310,
+                "pixel_h": 159
+            },
+            {
+                "ten": "Câu 16-20",
+                "tu_cau": 16,
+                "den_cau": 20,
+                "x": 0.1573,
+                "y": 0.7156,
+                "w": 0.2938,
+                "h": 0.1060,
+                "pixel_x": 166,
+                "pixel_y": 1067,
+                "pixel_w": 310,
+                "pixel_h": 158
+            },
+            {
+                "ten": "Câu 21-25",
+                "tu_cau": 21,
+                "den_cau": 25,
+                "x": 0.1573,
+                "y": 0.8223,
+                "w": 0.2938,
+                "h": 0.1060,
+                "pixel_x": 166,
+                "pixel_y": 1226,
+                "pixel_w": 310,
+                "pixel_h": 158
+            },
+            {
+                "ten": "Câu 26-30",
+                "tu_cau": 26,
+                "den_cau": 30,
+                "x": 0.5602,
+                "y": 0.3944,
+                "w": 0.2976,
+                "h": 0.1080,
+                "pixel_x": 591,
+                "pixel_y": 588,
+                "pixel_w": 314,
+                "pixel_h": 161
+            },
+            {
+                "ten": "Câu 31-35",
+                "tu_cau": 31,
+                "den_cau": 35,
+                "x": 0.5602,
+                "y": 0.5030,
+                "w": 0.2976,
+                "h": 0.1066,
+                "pixel_x": 591,
+                "pixel_y": 750,
+                "pixel_w": 314,
+                "pixel_h": 159
+            },
+            {
+                "ten": "Câu 36-40",
+                "tu_cau": 36,
+                "den_cau": 40,
+                "x": 0.5602,
+                "y": 0.6097,
+                "w": 0.2976,
+                "h": 0.1060,
+                "pixel_x": 591,
+                "pixel_y": 909,
+                "pixel_w": 314,
+                "pixel_h": 158
+            },
+            {
+                "ten": "Câu 41-45",
+                "tu_cau": 41,
+                "den_cau": 45,
+                "x": 0.5602,
+                "y": 0.7163,
+                "w": 0.2976,
+                "h": 0.1060,
+                "pixel_x": 591,
+                "pixel_y": 1068,
+                "pixel_w": 314,
+                "pixel_h": 158
+            },
+            {
+                "ten": "Câu 46-50",
+                "tu_cau": 46,
+                "den_cau": 50,
+                "x": 0.5602,
+                "y": 0.8223,
+                "w": 0.2976,
+                "h": 0.1066,
+                "pixel_x": 591,
+                "pixel_y": 1226,
+                "pixel_w": 314,
+                "pixel_h": 159
+            }
+        ],
+        "chua_xac_nhan": false
+    },
+
+    "nguong": {
+        "_ghi_chu": "Ngưỡng phát hiện ô được tô (tỉ lệ pixel đen trong ô tròn)",
+        "ti_le_to_min": 0.38,
+        "ti_le_to_max": 0.95,
+        "ti_le_to_ambiguous": 0.24,
+        "chenh_lech_toi_thieu": 0.10,
+        "fill_ratio_min": 0.38,
+        "fill_ratio_ambiguous": 0.24,
+        "fill_ratio_diff_min": 0.10,
+        "chua_xac_nhan": false
+    },
+
+    "diem": {
+        "_ghi_chu": "Quy tắc tính điểm theo chuẩn THPT",
+        "tong_cau": 50,
+        "diem_moi_cau": 0.2,
+        "diem_toi_da": 10.0
+    }
+}
