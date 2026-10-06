@@ -32,3 +32,6 @@ Thumbs.db
 *.log
 outputs/*
 !outputs/.gitkeep
+
+# Tài liệu nội bộ cá nhân
+PROGRESS.md
